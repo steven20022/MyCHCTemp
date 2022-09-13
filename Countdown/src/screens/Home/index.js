@@ -10,7 +10,6 @@ import {
   Image,
   Easing,
 } from 'react-native';
-import Video from 'react-native-video';
 import styles from './styles';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import {useNavigation} from '@react-navigation/native';
@@ -19,7 +18,6 @@ import {useQuery, gql} from '@apollo/client';
 import 'localstorage-polyfill';
 import { repeat, transform } from 'lodash';
 import { renderToStringWithData } from '@apollo/client/react/ssr';
-import { AnimatedSVGPath } from 'react-native-svg-animations'
 
 
 const MY_COURSES_BY = gql`
