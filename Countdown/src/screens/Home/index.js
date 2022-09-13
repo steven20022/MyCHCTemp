@@ -19,7 +19,6 @@ import 'localstorage-polyfill';
 import { repeat, transform } from 'lodash';
 import { renderToStringWithData } from '@apollo/client/react/ssr';
 
-
 const MY_COURSES_BY = gql`
   query CoursesBy(
     $divisionCodes: [String]
