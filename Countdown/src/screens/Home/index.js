@@ -177,7 +177,7 @@ const HomeScreen = props => {
         <Image style={styles.imageRoad} resizeMode='stretch' source={require('../../../assets/images/roadTexture3.png')}/>
       </Animated.ScrollView>
 
-      <AnimatedSVGPath
+      {/* <AnimatedSVGPath
         strokeColor={"red"}
         duration={1000}
         strokeWidth={10}
@@ -188,7 +188,7 @@ const HomeScreen = props => {
         d={d}
         loop={true}
         strokeDashArray={[42.76482137044271, 42.76482137044271]}
-      />
+      /> */}
 
      
       {/* <Video source={require('./Griffin.mov')} style={styles.griffin} /> */}
